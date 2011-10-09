@@ -1,8 +1,5 @@
 
 ## Simple demonstration of Evolution of Neural Networks using Genetic Algorithms
-                      (C) 2001-2011 Patrick Hanevold
-
-=============================================================================
 
 This is something I played with back in 2001 that someone may find amusing.
 
@@ -33,11 +30,11 @@ where we allow different populations to mix with each other.
 
 ## Files of interest
 
-genetic    - the top API for the algorithm. Containing populations of neural networks.
-population - the population container containing a population of neural nets
-net        - the neural net containing multiple layers of neurons
-layer      - the layer container containing a layer neurons
-neuron     - neural networks consists of neurons, this is the neuron
+genetic    - the top API for the algorithm. Containing populations of neural networks.  
+population - the population container containing a population of neural nets  
+net        - the neural net containing multiple layers of neurons  
+layer      - the layer container containing a layer neurons  
+neuron     - neural networks consists of neurons, this is the neuron  
 
 sinTest    - the test application.
 
