@@ -93,13 +93,11 @@ void Neuron::mix(Neuron *n){
   if(inputs==n->inputs){
     for(int i=0; i<inputs*7; i++) weight[i] = (weight[i]+n->weight[i])*.5+drand()*.01;
     for(int i=0; i<7; i++) base[i] = (base[i]+n->base[i])*.5+drand()*.01;
-//    mutate(1000);     // small mutation
   }
 #else
   if((inputs==n->inputs)&&function==n->function){
     for(int i=0; i<inputs; i++) weight[i] = (weight[i]+n->weight[i])/2.0;
     base = (base+n->base)/2.0;
-//    mutate(1000);     // small mutation
   }
 #endif
 }

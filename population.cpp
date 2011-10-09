@@ -9,13 +9,6 @@
 
 using namespace std;
 
-//#define MAXPOP  60    /* Size of population */
-//#define BESTPOP 4     /* Number of individuals taken from the best */
-//#define SELPOP  8     /* SELPOP-BESTPOP = Number of people selected randomly on each gen. */
-//#define NEWPOP  18    /* NEWPOP-SELPOP = Number of new people, created randomly on each gen. */
-//#define MUT1    25    /* MUT1-NEWPOP = Number of mutations in the first mutation group */
-//#define MIXGEN  10    /* Number of generations between population mixing */
-
 inline int irand( int range ){
   return( rand() % range );
 }
